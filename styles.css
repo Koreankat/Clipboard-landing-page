@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Bai Jamjuree", sans-serif;
+}
+.bg {
+  background-image: url(/images/bg-header-mobile.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.darkish-grey {
+  color: hsl(210, 10%, 33%);
+}
+.grayish-blue {
+  color: hsl(201, 11%, 66%);
+}
+.bg-strong-cyan {
+  background-color: hsl(171, 66%, 44%);
+}
+.bg-light-blue {
+  background-color: hsl(233, 100%, 69%);
+}
+.bg-strong-cyan:hover {
+  background-color: hsl(171, 56%, 56%);
+}
+.bg-light-blue:hover {
+  background-color: hsl(233, 79%, 71%);
+}
+.btn-1 {
+  border-bottom: 3px solid hsl(171, 69%, 34%);
+}
+.btn-2 {
+  border-bottom: 3px solid hsl(233, 86%, 56%);
+}
+.bg-grayish-blue {
+  background-color: hsla(202, 11%, 66%, 0.397);
+}
+.bg-darkish-grey {
+  background-color: hsl(210, 10%, 33%);
+}
+.img {
+  flex: 0 0 250px;
+}
+@media (min-width: 768px) {
+  .bg {
+    background-image: url(/images//bg-header-desktop.png);
+    background-repeat: no-repeat;
+  }
+}
+.footer:hover {
+  color: hsl(171, 66%, 44%);
+}
+.svg:hover {
+  fill: hsl(171, 66%, 44%);
+}
